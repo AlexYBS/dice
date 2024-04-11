@@ -1,0 +1,40 @@
+body{
+    background-color: #FFFAB7;
+}
+
+h1{
+    font-family: "Tilt Neon", sans-serif;
+    font-size: 5rem;
+    color: #FFD1E3;
+    text-align: center;
+}
+
+p{
+    font-family: "Tilt Neon",sans-serif;
+    color: #5BBCFF;
+   font-size: 50px;
+   
+}
+
+.textPlayer{
+    margin-top: 100px;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+.diceImages{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+img{
+    height: 200px;
+    width: 200px;
+    }
+
+    .hide{
+        visibility: hidden;
+    }
