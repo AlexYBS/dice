@@ -38,3 +38,62 @@ img{
     .hide{
         visibility: hidden;
     }
+
+.footerMessage{
+        color: black;
+        text-align: center;
+
+    }
+
+   /* Stiluri pentru ecrane mai mici (smartphone-uri si tablete) */
+   @media screen and (max-width: 768px) {
+    p{
+        font-size: 25px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .footerMessage{
+        font-size: 15px;
+    }
+    .diceImages{
+        gap: 50px;
+    }
+    .textPlayer{
+        gap: 50px;
+    }
+       
+   }
+
+   /* Stiluri pentru ecrane de dimensiuni medii (laptopuri si monitoare mai mici) */
+   @media screen and (min-width: 769px) and (max-width: 1024px) {
+        p {
+                font-size: 40px;
+            }
+        
+            img {
+                height: 150px;
+                width: 150px;
+            }
+        
+            h1 {
+                font-size: 4rem;
+            }
+        
+            .footerMessage {
+                font-size: 25px;
+            }
+        
+            .diceImages {
+                gap: 100px;
+            }
+        
+            .textPlayer {
+                gap: 100px;
+            }
+   }
+
